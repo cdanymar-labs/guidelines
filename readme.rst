@@ -75,7 +75,7 @@ Format
 
 .. code-block:: text
 
-    <type>(<scope>): <verb> <description>
+    <type>(<scope>): <message in imperative mood>
 
     [optional body]
 
@@ -160,24 +160,3 @@ Scopes
      - Windows
 
 .. [#core] Last resort. Prefer a more specific scope.
-
-
-Verbs
-^^^^^
-
-.. list-table::
-
-   * - Verb
-     - Use when
-   * - ``add``
-     - Adding a file, option, flag, dependency, etc.
-   * - ``remove``
-     - Removing a file, option, flag, dependency, etc.
-   * - ``move``
-     - Moving a file, function, or class without changing it
-   * - ``implement``
-     - Building logic, behavior, UI changes, or structural modifications
-   * - ``bump`` [#bump]_
-     - Updating a version number
-
-.. [#bump] Reserved for version bumps only.
